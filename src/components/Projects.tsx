@@ -12,7 +12,7 @@ const Projects = () => {
 	const RYMImages = [
 		"public/unknown_2023.05.06-20.06_1.gif",
 		"public/unknown_2023.05.06-19.50_2.gif",
-		"public/unknown_2023.05.06-20.14_1.gif",
+		"https://media.licdn.com/dms/image/D4D22AQH-FAsZGHvlPA/feedshare-shrink_2048_1536/0/1683417222413?e=1692230400&v=beta&t=FGEBMI8c3_g26OLGz8AF8Mud0__HeRma8Ji3tflgX7k",
 	];
 	const titles = ["Facil Market", "Travelling Counries", "Rick & Morty App"];
 	const descriptions = [texts.text1, texts.text2, texts.text3];
