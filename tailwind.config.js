@@ -18,7 +18,9 @@ export default {
         'pink': "rgb(247, 61, 147)",
         'violet-Ocean': 'rgb(22, 0, 59)',
         'grayLetter': 'rgb(65, 63, 66)',
-        'grayOwn': 'rgb(127, 132, 135)' 
+        'grayOwn': 'rgb(127, 132, 135)' ,
+        'wordpress': 'rgb(33, 117, 155)',
+        'linkedin': 'rgb(14, 118, 168)'
       }
     },
   },

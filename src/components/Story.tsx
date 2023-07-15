@@ -1,11 +1,13 @@
 const Story = () => {
 	return (
-		<div className=" bg-violet-Ocean m-3 p-4">
-			<h1 className=" font-Poppins text-pink">My history</h1>
-			<section className="m-2">
-				<p className=" font-tittilium text-left">
+		<>
+		<div className=" w-4/5  bg-gradient-to-br from-black to-violet-Ocean m-3 p-4">
+			<h1 className=" font-Poppins text-pink" id="History">My history</h1>
+		</div>
+		<section className="m-2 bg-violet-Ocean  w-4/5 p-10 rounded-md">
+				<p className=" font-tittilium antialiased tracking-wide leading-relaxed text-justify">
 					A long time ago...
-					<p>
+					<p >
 						I had lived a complete different live. Inside, It's was me, with my
 						dreams, my thoughts, feelings and desires{" "}
 						<p className=" inline-flex font-bold text-ciel mr-1">but</p>
@@ -33,7 +35,8 @@ const Story = () => {
 					</p>
 				</p>
 			</section>
-		</div>
+		</>
+		
 	);
 };
 

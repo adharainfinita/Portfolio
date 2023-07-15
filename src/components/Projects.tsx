@@ -1,55 +1,63 @@
-import { Link } from "react-router-dom";
-import github from '../assets/icons/github.svg';
-import {AiFillYoutube} from 'react-icons/ai'
+import Project from "./Project";
+import {texts} from '../utils'
 
-const Projects = ( ) => {
-  return (
-    <main>
-      <div className=" bg-violet-Ocean m-3 p-4">
-			<h1 className=" font-Poppins text-pink">Projects</h1>
-      </div>
+const Projects = () => {
+	const travCountriesImages = [
+		"public/Captura de pantalla 2023-06-01 170428.png",
+		"public/Captura de pantalla 2023-06-01 200240.png",
+		"public/Captura de pantalla 2023-06-01 200552.png",
+		"public/Captura de pantalla 2023-06-01 200614.png",
+		"public/Captura de pantalla 2023-06-01 200731.png",
+	];
+	const RYMImages = [
+		"public/unknown_2023.05.06-20.06_1.gif",
+		"public/unknown_2023.05.06-19.50_2.gif",
+		"public/unknown_2023.05.06-20.14_1.gif",
+	];
+	const titles = ["Facil Market", "Travelling Counries", "Rick & Morty App"];
+	const descriptions = [texts.text1, texts.text2, texts.text3];
+	const tags = [
+		"3 and half weeks",
+		"2 weeks",
+		"A month",
+	];
+	const repositories = [
+		"https://github.com/adharainfinita/facil-market-proyect",
+		"https://github.com/adharainfinita/traveling_countries_app",
+		"https://github.com/adharainfinita/rick-and-morty_app",
+	];
+	const media = ["public/facilmarket.mp4", travCountriesImages, RYMImages];
 
-      <div className=" bg-background flex flex-row justify-items-center">
-        <section className=" pr-3 m-3">
-          <h2 className=" font-Poppins text-ciel text-4xl text-left pb-2">Facil Market</h2>
-          <p className=" text-justify text-sm ">This proyect is a Marketplace app. Here, we ofert a platform for the buyer and sellers can get your bussiness so easy and accessible for. In this repository you find the source code and the documentation asociated with the development and funcionalities of the app.</p>
-          <h5 className=" text-purple">#PERN #Team #UX/UI #Marketplace #API</h5>
-          <Link to="https://github.com/adharainfinita/facil-market-proyect" target="_blank">
-            <img className="h-8 filter invert" src={github} alt="github-icon" />
-          </Link>
-          <Link to="https://youtu.be/XQNHgjvIK84" target="_blank">
-            <AiFillYoutube className=" w-24 h-24"/>
-          </Link>
-            
-        </section>
-        <section className=" p-3 m-3">
-          <img className=" h-full w-100" src="public/Captura de pantalla_2023-07-14_10-42-14.png" alt="facil-market"/> 
-        </section>
-      </div>
+	return (
+		<>
+			<div className="w-4/5 bg-gradient-to-br from-black to-violet-Ocean m-3 p-4" id="Projects">
+				<h1 className=" font-Poppins text-pink">Projects</h1>
 
-      <div>
-        <section>
-          <h2>Travelling Countries</h2>
-          <p>Description</p>
-          <p>Technologies</p>
-        </section>
-        <section>
-          <img src="" alt="" />
-        </section>
-      </div>
+			</div>
+			<Project
+				name={titles[0]}
+				description={descriptions[0]}
+				tags={tags[0]}
+				link={repositories[0]}
+				media={media[0]}
+			/>
 
-      <div>
-        <section>
-          <h2>Rick & Morty app</h2>
-        </section>
-        <section>
-          <p>Description</p>
-          <p>Technologies</p>
-        </section>
-      </div>
-      
-    </main>
-  )
-}
+			<Project
+				name={titles[1]}
+				description={descriptions[1]}
+				tags={tags[1]}
+				link={repositories[1]}
+				media={media[1]}
+			/>
+			<Project
+				name={titles[2]}
+				description={descriptions[2]}
+				tags={tags[2]}
+				link={repositories[2]}
+				media={media[2]}
+			/>
+		</>
+	);
+};
 
 export default Projects;

@@ -10,13 +10,17 @@ function App() {
 
 
   return (
-    <>
+    <div>
+      <NavBar />
+    <main className="flex flex-col items-center">
       <Presentation />
       <Story/>
       <Skills/>
       <Projects/>
       <Contact/>
-    </>
+    </main>
+    </div>
+    
   )
 }
 

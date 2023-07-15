@@ -9,29 +9,45 @@ import Postgres from "../assets/icons/Postgresql.svg";
 import js from "../assets/icons/JavaScript.svg";
 import { useState } from "react";
 
+
 const Skills = () => {
 	const [level, setLevel] = useState(0);
 
-	const handleChangeLevel = (event: React.ChangeEvent<HTMLSelectElement>) => {
-		setLevel(Number(event.target.value));
+
+	const handleChangeLevel = (value: number) => {
+		setLevel(value);
 	};
 
 	return (
-		<main className=" bg-violet-Ocean m-3 p-4">
-			<section className="mb-8">
-				<h1 className=" font-Poppins text-pink mb-5">My Skills</h1>
-				<select
-					className=" w-24 h-7 bg-gray-800 text-ciel border border-gray-Own rounded-md"
-					name="skills"
-					onChange={handleChangeLevel}
-				>
-					<option value="0">Everything</option>
-          <option value="3">Polished</option>
-					<option value="2">Proficient</option>
-					<option value="1">Low use</option>
-					<option value="-1">Learning</option>
-				</select>
-			</section>
+		< >
+			<div className="w-4/5 bg-gradient-to-br from-black to-violet-Ocean m-3 p-4" id="Skills">
+				<h1 className=" font-Poppins text-pink">My Skills</h1>
+			</div>
+			<div className="m-2 bg-violet-Ocean w-4/5 pb-5 rounded-md">
+				<section className=" bg-background mb-5">
+					<button 
+					className=" bg-transparent text-xl"
+					data-tooltip-content="Show Everything"
+					onClick={()=>{handleChangeLevel(0)}}
+					placeholder="everything"
+					>↩</button>
+					<button
+					className=" bg-transparent text-xl"
+					onClick={()=>{handleChangeLevel(3)}}
+					>💞</button>
+					<button
+					className=" bg-transparent"
+					onClick={()=>{handleChangeLevel(2)} }
+					>👍</button>
+					<button
+					className=" bg-transparent"
+					onClick={()=>{ handleChangeLevel(1)}}
+					>😬</button>
+					<button
+					className=" bg-transparent"
+					onClick={()=>{ handleChangeLevel(-1)}}
+					>🏁👩‍💻</button>
+					</section>
 			<div className=" grid grid-cols-4 grid-flow-row row-auto gap-3 justify-items-center">
 				{(level === 3 || !level )&& (
 					<>
@@ -134,8 +150,10 @@ const Skills = () => {
 						/>
 					</>
 				)}
+	
 			</div>
-		</main>
+			</div>
+		</>
 	);
 };
 
