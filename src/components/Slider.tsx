@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import { BiLeftArrowCircle, BiRightArrowCircle } from "react-icons/bi";
+// import { BiLeftArrowCircle, BiRightArrowCircle } from "react-icons/bi";
 
 interface SliderProps {
 	images: string[];
@@ -43,7 +43,7 @@ const Slider: React.FC<SliderProps> = ({ images }) => {
 				className="slider__arrow slider__prev-button"
 				onClick={handlePrevImage}
 			/> */}
-			<div className=" h-80 w-full">
+			<div className=" h-80 w-full border-4 border-stone-900 dark:border-0">
 					<img
 				className=" h-full w-full "
 				src={images[currentImage]}
