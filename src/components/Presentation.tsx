@@ -18,7 +18,7 @@ const Presentation: React.FC<TranslationsProps> = ({translations}) => {
 			</section>
 			<section className="space-y-3 w-2/4 hover:w-screen transition-all">
 				<img
-					src="public\perfil.jpg"
+					src="perfil.jpg"
 					alt=""
 					className="w-full h-full mx-auto border-4 border-stone-900 dark:border-4 dark:border-white"
 				/>
