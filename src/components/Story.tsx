@@ -5,7 +5,7 @@ const Story: React.FC<TranslationsProps> = ({translations}) => {
 	return (
 		<div
 			className="w-4/5 h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean flex flex-col items-center 
-    justify-center shadow-md my-32 p-12 rounded-md "
+    justify-center shadow-md my-32 p-12 rounded-md"
 			id="History"
 		>
 			<section className=" bg-light-pink border-4 border-stone-900 dark:border-0 dark:bg-gradient-to-br dark:from-black dark:to-violet-Ocean m-3 p-4 ">
@@ -16,32 +16,32 @@ const Story: React.FC<TranslationsProps> = ({translations}) => {
 			<section className="m-2 border-4 border-stone-900 dark:border-0 bg-ciel transition-all dark:bg-violet-Ocean  w-4/5 p-10 rounded-md">
 				<p className=" font-tittilium antialiased tracking-wide leading-relaxed text-justify text-black dark:text-white">
 					{translations.introduction}
-					<p>
+					<em>
 						{translations.p1}{" "}
-						<p className=" inline-flex font-bold dark:text-ciel mr-1">
+						<strong className=" inline-flex font-bold dark:text-ciel mr-1">
 							{translations.conjunction}
-						</p>
+						</strong>
 						{translations.p2}{" "}
-						<p className=" inline-flex font-bold dark:text-ciel mr-1">
+						<strong className=" inline-flex font-bold dark:text-ciel mr-1">
 							{translations.adjective}
-						</p>
+						</strong>
 						.
-					</p>
-					<p>
+					</em>
+					<em>
 						{translations.p3}{" "}
-						<p className=" inline-flex font-bold dark:text-ciel">
+						<strong className=" inline-flex font-bold dark:text-ciel">
 							{translations.disruptionWord}
-						</p>
+						</strong>
 						{translations.p4}{" "}
-						<p className=" inline-flex font-bold dark:text-ciel mr-1">
+						<strong className=" inline-flex font-bold dark:text-ciel mr-1">
 							{translations.disruptionWord2}
-						</p>
+						</strong>
 						{translations.p5}
-					</p>
-					<p className=" inline-flex dark:text-detail mr-1">
+					</em>
+					
+				</p><p className=" inline-flex dark:text-detail mr-1">
 						{translations.p6}
 					</p>
-				</p>
 			</section>
 		</div>
 	);
