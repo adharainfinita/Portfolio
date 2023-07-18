@@ -19,18 +19,17 @@ const Skills: React.FC<TranslationsProps> = ({translations}) => {
 	};
 
 	return (
-		<div className="w-4/5 h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean flex flex-col items-center 
-    justify-center shadow-md my-32 p-12 rounded-md">
+		<div className="w-full md:w-4/5 sm:w-full h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean flex flex-col items-center justify-center shadow-md my-32 p-12 rounded-md">
 			<section
 				className=" bg-light-pink border-4 border-stone-900 dark:border-0 dark:bg-gradient-to-br dark:from-black dark:to-violet-Ocean m-3 p-4 "
-				id="Skills"
-			>
-				<h1 className=" font-Poppins text-slate-800 dark:text-pink">{translations.section2}</h1>
+				id="Skills">
+				<h1 className=" font-Poppins text-slate-800 dark:text-pink lg:text-5xl md:text-2xl text-sm">{translations.section2}</h1>
 			</section>
-			<section className="m-2  border-4 border-stone-900 dark:border-0 bg-ciel dark:bg-violet-Ocean w-4/5 pb-5 rounded-md">
-				<section className=" bg-light-pink border-b-2 border-stone-900 dark:border-0 dark:bg-background mb-5">
-					<button
-						className=" bg-transparent text-xl hover:animate-spin"
+			<section className="m-2 border-4 border-stone-900 dark:border-0 bg-ciel dark:bg-violet-Ocean pb-5 rounded-md w-full sm:w-4/5 md:w-4/5">
+				<section className=" bg-light-pink border-b-2 border-stone-900 
+				dark:border-0 dark:bg-background mb-5">
+					<button 	
+						className=" bg-transparent lg:text-xl sm:text-sm text-lg hover:animate-spin"
 						data-tooltip-content="Show Everything"
 						onClick={() => {
 							handleChangeLevel(0);

@@ -23,36 +23,37 @@ const NavBar = () => {
 			<div
 				className={`bg-light-ocean dark:bg-background border-4 border-stone-900
 				dark:border-0 m-3 rounded-md p-5 w-1/12 flex flex-col items-center content-around 
-				h-max float-left fixed top-0 left-0 ${
-					hovered ? " h-5/6 transition-all duration-300" : " h-1/6"
+				h-max float-left fixed top-0 left-0  ${
+					hovered ? "sm:h-96 md:h-auto lg:h-screen transition-all duration-300" : "h-26"
 				}`}
 				onMouseEnter={handleHover}
 				onMouseLeave={handleMouseLeave}
 			>
 				<section className="mb-6 w-4/5 h-4/5">
-					<div className={` ${hovered ? "hovered  transition-all duration-500" : ""}`}>
+					<div className={` ${hovered ? "hovered transition-all duration-500" : ""}`}>
 						<a href="#Home">
-							<TiCode className="h-full w-full pb-2 filter invert dark:filter-none" />
+						<TiCode className="h-full w-full pb-2 filter invert dark:filter-none" />
 						</a>
 					</div>
 				</section>
 				<section className={`mb-6 transition-all duration-300 ${hovered ? "visible  transition-all duration-500 " : "hidden"} `}>
-					<a className="justify-center" rel="stylesheet" href="#History">
-						<button className="mb-2 bg-pink rounded-full">
-							<BiBookOpen className=" h-9 w-9" />
-						</button>
-					</a>
-					<a rel="stylesheet" href="#Skills">
-						<button className="mb-2 bg-pink rounded-full">
-							<FaDev className=" h-9 w-9" />
-						</button>
-					</a>
-					<a rel="stylesheet" href="#Projects">
-						<button className="mb-2 bg-pink rounded-full">
-							<SiNounproject className=" h-9 w-9" />
-						</button>
-					</a>
-				</section>
+  <a className="justify-center" rel="stylesheet" href="#History">
+    <button className="mb-2 bg-pink rounded-full">
+      <BiBookOpen className="h-5 w-5 md:w-8 md:h-8 lg:w-10 lg:h-10" />
+    </button>
+  </a>
+  <a rel="stylesheet" href="#Skills">
+    <button className="mb-2 bg-pink rounded-full">
+      <FaDev className="h-5 w-5 md:w-8 md:h-8 lg:w-10 lg:h-10" />
+    </button>
+  </a>
+  <a rel="stylesheet" href="#Projects">
+    <button className="mb-2 bg-pink rounded-full">
+      <SiNounproject className="h-5 w-5 md:w-8 md:h-8 lg:w-10 lg:h-10" />
+    </button>
+  </a>
+</section>
+
 				<section
 					className={`flex flex-col content-around m-3 transition-all duration-300 ${
 						hovered ? "visible" : "hidden"

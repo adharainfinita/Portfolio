@@ -24,10 +24,10 @@ const Projects: React.FC<TranslationsProps> = ({translations}) => {
 	const media = ["public/facilmarket.mp4", travCountriesImages, RYMImages];
 
 	return (
-		<div className="w-4/5 h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean flex flex-col items-center 
+		<div className=" h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean flex flex-col items-center 
     justify-center shadow-md my-32 p-12 rounded-md">
 			<section className="bg-light-pink border-4 border-stone-900 dark:border-0 dark:bg-gradient-to-br dark:from-black dark:to-violet-Ocean m-3 p-4" id="Projects">
-				<h1 className=" font-Poppins text-slate-800 dark:text-pink">{translations.section3}</h1>
+				<h1 className=" font-Poppins text-slate-800 dark:text-pink lg:text-5xl md:text-2xl text-sm">{translations.section3}</h1>
 			</section>
 		
 				<Project

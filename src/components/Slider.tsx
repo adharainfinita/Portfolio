@@ -45,7 +45,7 @@ const Slider: React.FC<SliderProps> = ({ images }) => {
 			/> */}
 			<div className=" h-80 w-full border-4 border-stone-900 dark:border-0">
 					<img
-				className=" h-full w-full "
+				className=" h-full w-full aspect-auto "
 				src={images[currentImage]}
 				alt={`Image ${currentImage}`}
 				/>

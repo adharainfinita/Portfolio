@@ -14,7 +14,7 @@ const Contact:React.FC<TranslationsProps> = ({translations}) => {
 	}
 
 	return (
-		<main className="w-4/5  bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean m-3 p-4">
+		<main className="md:w-screen sm:w-4/5 bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean m-3 p-4">
 			<div className=" bg-light-pink border-4 border-stone-900 dark:border-0 dark:bg-gradient-to-br dark:from-black dark:to-violet-Ocean m-3 p-4 flex flex-col items-center">
 				<h1 className=" font-Poppins text-slate-800 dark:text-pink">{translations.section4}</h1>
 				<h5 className='font-Poppins'>{translations.CallToAction}</h5>
