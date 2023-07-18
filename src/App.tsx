@@ -7,8 +7,8 @@ import NavBar from "./components/Nav";
 import Contact from "./components/Contact";
 import { useState, useEffect } from "react";
 import AccesibilityComponent from "./components/Accesibility";
-import { Theme } from "./Contexts/ThemeContext";
-import { LanguageContext} from "./Contexts/LanguageContext";
+import { Theme } from "./ThemeContext";
+import { LanguageContext} from "./LanguageContext";
 import { EN_translations } from "./translate/en";
 import { SP_translations } from "./translate/es";
 
