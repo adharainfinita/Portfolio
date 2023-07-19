@@ -19,7 +19,7 @@ const Skills: React.FC<TranslationsProps> = ({translations}) => {
 	};
 
 	return (
-		<div className="w-full md:w-4/5 sm:w-full h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean flex flex-col items-center justify-center shadow-md my-32 p-12 rounded-md">
+		<div className="w-full sm:w-3/4 md:w-screen lg:w-3/4 h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean flex flex-col items-center justify-center shadow-md my-32 p-4 rounded-md">
 			<section
 				className=" bg-light-pink border-4 border-stone-900 dark:border-0 dark:bg-gradient-to-br dark:from-black dark:to-violet-Ocean m-3 p-4 "
 				id="Skills">

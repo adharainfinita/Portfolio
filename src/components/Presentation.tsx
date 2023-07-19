@@ -5,7 +5,7 @@ const Presentation: React.FC<TranslationsProps> = ({translations}) => {
 
 	return (
 		<div
-  className="w-3/4 h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0
+  className="w-full sm:w-3/4 md:w-3/4 lg:w-3/4 h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0
 	 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean 
 	 flex flex-col sm:flex-row items-center justify-center shadow-md my-32 p-12 rounded-md"
   id="Home"

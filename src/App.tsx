@@ -28,7 +28,7 @@ function App() {
 			<div>
 				<AccesibilityComponent />
 				<NavBar />
-				<main className="flex flex-col items-center">
+				<main className="flex flex-col w-screen items-center">
 					<Presentation translations={translations}/>
 					<Story translations={translations}/>
 					<Skills translations={translations}/>

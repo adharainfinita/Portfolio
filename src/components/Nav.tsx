@@ -23,7 +23,7 @@ const NavBar = () => {
 			<div
 				className={`bg-light-ocean dark:bg-background border-4 border-stone-900
 				dark:border-0 m-3 rounded-md p-5 w-1/12 flex flex-col items-center content-around 
-				h-max float-left fixed top-0 left-0  ${
+				h-max float-left fixed top-0 left-0 z-50  ${
 					hovered ? "sm:h-96 md:h-auto lg:h-screen transition-all duration-300" : "h-26"
 				}`}
 				onMouseEnter={handleHover}
