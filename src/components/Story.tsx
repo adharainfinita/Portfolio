@@ -3,7 +3,7 @@ import {TranslationsProps} from '../translate/interface';
 
 const Story: React.FC<TranslationsProps> = ({translations}) => {
 	return (
-		<div className=" h-auto bg-gradient-to-br border-4 border-stone-900 dark:border-0
+		<div className="w-full sm:w-3/4 md:w-3/4 lg:w-3/4 bg-gradient-to-br border-4 border-stone-900 dark:border-0
 		 from-light-ocean to-light-ciel dark:from-black dark:to-violet-Ocean 
 		 flex flex-col items-center justify-center shadow-md my-32 p-12 rounded-md" 
 		 id="History">

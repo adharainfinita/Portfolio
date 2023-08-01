@@ -1,6 +1,6 @@
 import {MdLightMode, MdModeNight } from 'react-icons/md';
-import { useGlobalContext } from '../ThemeContext';
-import { useLanguage} from '../LanguageContext';
+import { useGlobalContext } from '../Contexts/ThemeContext';
+import { useLanguage} from '../Contexts/LanguageContext';
 
 
 const AccesibilityComponent = ( ) => {

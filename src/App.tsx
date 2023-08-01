@@ -7,13 +7,13 @@ import NavBar from "./components/Nav";
 import Contact from "./components/Contact";
 import { useState, useEffect } from "react";
 import AccesibilityComponent from "./components/Accesibility";
-import { Theme } from "./ThemeContext";
-import { LanguageContext} from "./LanguageContext";
+import { Theme } from "./Contexts/ThemeContext";
+import { LanguageContext} from "./Contexts/LanguageContext";
 import { EN_translations } from "./translate/en";
 import { SP_translations } from "./translate/es";
 
 function App() {
-	const [theme, setTheme] = useState("dark");
+	const [theme, setTheme] = useState("light");
 	const [language, setLanguage] = useState<"es" | "en">("en");
   const translations = language === "es" ? SP_translations : EN_translations;
 
@@ -28,7 +28,7 @@ function App() {
 			<div>
 				<AccesibilityComponent />
 				<NavBar />
-				<main className="flex flex-col w-screen items-center">
+				<main className="flex flex-col items-center">
 					<Presentation translations={translations}/>
 					<Story translations={translations}/>
 					<Skills translations={translations}/>
