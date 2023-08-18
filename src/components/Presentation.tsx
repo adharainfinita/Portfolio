@@ -24,7 +24,7 @@ const Presentation: React.FC<TranslationsProps> = ({ translations }) => {
 			</section>
 			<section className="mt-4 sm:mt-0 space-y-3 w-full sm:w-2/4 hover:w-screen transition-all">
 				<img
-					src="perfil.png"
+					src="https://res.cloudinary.com/dlbhecdey/image/upload/f_auto,q_auto/gvi24l3ams49u1jragst.png"
 					alt=""
 					className="w-full h-full mx-auto border-4 rounded-lg border-stone-900 dark:border-4
 					 dark:border-white"

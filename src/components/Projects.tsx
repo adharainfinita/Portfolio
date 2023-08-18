@@ -10,9 +10,9 @@ const Projects: React.FC<TranslationsProps> = ({translations}) => {
 		"Captura de pantalla 2023-06-01 200731.png",
 	];
 	const RYMImages = [
-		"unknown_2023.05.06-20.06_1.gif",
+		"https://res.cloudinary.com/dlbhecdey/image/upload/f_auto,q_auto/dplbjz8rmm4dqwfdvigp",
 		"unknown_2023.05.06-19.50_2.gif",
-		"https://media.licdn.com/dms/image/D4D22AQH-FAsZGHvlPA/feedshare-shrink_2048_1536/0/1683417222413?e=1692230400&v=beta&t=FGEBMI8c3_g26OLGz8AF8Mud0__HeRma8Ji3tflgX7k",
+		"https://media.licdn.com/dms/image/D4D22AQH-FAsZGHvlPA/feedshare-shrink_2048_1536/0/1683417222413?e=1695254400&v=beta&t=M5pmnLlQHz8LCGvXzW1hLjXz1QNhq2q7pInUWj9dEos",
 	];
 	const titles = ["Facil Market", "Travelling Counries", "Rick & Morty App"];
 	const descriptions = [translations.text1, translations.text2, translations.text3];
