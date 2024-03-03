@@ -16,7 +16,7 @@ export const SP_translations = {
 	p4: ", dejé la universidad y entré al mundo de la tecnología. Me gustaba crear cosas virtuales, entender cómo funcionaban, cómo eran posible, pero sobre todo, poder expresar todo eso que existe en la oscuridad de la mente. La filosofía me abrazó y aunque casi",
   disruptionWord2: 'perdí',
   p5: 'mi mente por eso, vino la pandemia y por fin probé con la programación.',
-  p6: 'Ahora, me siento completa con la poesía y el código. Puedo sentir el poder de las letras, de una línea de código; me gusta construir el mundo, cambiar las cosas y, sobre todo, mejorar las condiciones de vida de las personas que han venido al mundo con malas cartas.',
+  p6: 'Ahora, me siento completa con la literatura y el código. Puedo sentir el poder de las letras, de una línea de código; me gusta construir el mundo, cambiar las cosas y, sobre todo, mejorar las condiciones de vida de las personas que han venido al mundo con malas cartas.',
   section2:'Mis habilidades',
   section3: 'Proyectos',
   timeDev: 'Periodo de desarrollo:',

@@ -13,8 +13,8 @@ import { EN_translations } from "./translate/en";
 import { SP_translations } from "./translate/es";
 
 function App() {
-	const [theme, setTheme] = useState("light");
-	const [language, setLanguage] = useState<"es" | "en">("en");
+	const [theme, setTheme] = useState("dark");
+	const [language, setLanguage] = useState<"es" | "en">("es");
   const translations = language === "es" ? SP_translations : EN_translations;
 
 	useEffect(() => {

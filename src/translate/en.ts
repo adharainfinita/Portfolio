@@ -16,7 +16,7 @@ export const EN_translations = {
 	p4: ", I dropped out of college and entered the world of technology. I wanted to create virtual things, understand how they worked, how it was possible, but above all, express everything that exists in the darkness of the mind. Philosophy embraced me and although I almost",
 	disruptionWord2: "lost",
 	p5: "my mind because of it, the pandemic came and finally I tried programming.",
-	p6: "Now, I feel complete with poetry and programming. I can feel the power of letters, in a line of code, i like build the world, change things, and above all, improve the living conditions of people who have come into the world with bad cards.",
+	p6: "Now, I feel complete with literature and programming. I can feel the power of letters, in a line of code, i like build the world, change things, and above all, improve the living conditions of people who have come into the world with bad cards.",
 	section2: "My Skills",
 	section3: "Projects",
 	timeDev: "Development period:",

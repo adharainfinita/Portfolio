@@ -1,7 +1,7 @@
 import { TiCode } from "react-icons/ti";
 import github from "../assets/icons/github.svg";
 import gmail from "../assets/icons/gmail.svg";
-import { FaWordpress, FaDev } from "react-icons/fa";
+import { FaDev, FaInstagram } from "react-icons/fa";
 import { AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { useState } from "react";
 import { BiBookOpen } from "react-icons/bi";
@@ -78,7 +78,9 @@ const NavBar = () => {
 					<a href="https://twitter.com/AdharaRedruello" target="_blank">
 						<AiFillTwitterCircle className="m-1 h-9 w-9 fill-linkedin bg-white rounded-full" />
 					</a>
-					<FaWordpress className="h-9 w-9 m-1 filter invert dark:filter-none" />
+					<a href="https://www.instagram.com/sexta_vocal/" target="_blank">
+					<FaInstagram className="h-9 w-9 m-1 filter invert dark:filter-none" />
+					</a>
 				</section>
 			</div>
 		</aside>
