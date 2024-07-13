@@ -25,6 +25,7 @@ export interface Translations {
     text1: string;
     text2: string;
     text3: string;
+    text4: string,
     section4: string;
     CallToAction: string;
     spanMessage: string;

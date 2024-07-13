@@ -24,12 +24,13 @@ export const SP_translations = {
 		"3 semanas y media",
 		"2 semanas",
 		"Un mes",
+		"Una semana"
 	],
-  text1: `Este es mi último trabajo. Junto a mi equipo, creamos un marketplace
+  text1: `Este es mi último trabajo en equipo. Creamos un marketplace
   funcional, accesible y fácil de explorar.
   Aquí, ofrecemos una plataforma para que compradores y vendedores puedan realizar sus negocios de forma fácil y rápida.
-  La idea es que la gente pueda digitalizar su negocio a modo fácil. El título <risas>spaninglish</risas> es adrede. Queremos transmitir un sentido regional, la cultura del
-lugar  al cual pertenecemos.
+  La idea es que la gente pueda digitalizar su negocio a modo fácil. Queremos transmitir un sentido regional, la cultura del
+lugar al cual pertenecemos.
 En este repositorio se encuentra el código fuente y la documentación asociada a
 el desarrollo y funcionalidades de la aplicación.`,
 	text2: `Una app donde simulas que programas vacaciones o
@@ -40,6 +41,7 @@ el desarrollo y funcionalidades de la aplicación.`,
 	text3: `Este fue mi primer proyecto como desarrolladora fullstack. Es sencillo:
   obtienes personajes de una API externa, los guardas en la base de datos, también los usuarios creados, y los envias
   al cliente`,
+	text4: `Esta es una SPA donde promociono mis libros como autora y editora. Está diseñada para transmitir el estilo de la marca y la información de manera dinámica.`,
   section4: 'Contacto',
   CallToAction: 'Te interesó mi perfil?',
   spanMessage: 'Slack copiado al portapapeles'
