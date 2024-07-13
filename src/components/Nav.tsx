@@ -88,7 +88,7 @@ const NavBar = () => {
 					<a href="https://twitter.com/AdharaRedruello" target="_blank">
 						<AiFillTwitterCircle className="m-1 h-9 w-9 fill-linkedin bg-white rounded-full" />
 					</a>
-					<a href="https://www.instagram.com/sexta_vocal/" target="_blank">
+					<a href="https://www.instagram.com/universo_2099/" target="_blank">
 						<FaInstagram className="h-9 w-9 m-1 filter invert dark:filter-none" />
 					</a>
 				</section>
