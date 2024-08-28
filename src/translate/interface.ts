@@ -19,6 +19,7 @@ export interface Translations {
     p5: string;
     p6: string;
     section2: string;
+    skills: string[];
     section3: string;
     timeDev: string;
     times: string[];

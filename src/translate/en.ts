@@ -18,6 +18,7 @@ export const EN_translations = {
 	p5: "my mind because of it, the pandemic came and finally I tried programming.",
 	p6: "Now, I feel complete with literature and programming. I can feel the power of letters, in a line of code, i like build the world, change things, and above all, improve the living conditions of people who have come into the world with bad cards.",
 	section2: "My Skills",
+	skills: ['All', 'Senior Mood', 'Junior Mood', 'Traine Mood', 'Learning'],
 	section3: "Projects",
 	timeDev: "Development period:",
 	times: ["3 and half weeks", "2 weeks", "A month", "A week"],

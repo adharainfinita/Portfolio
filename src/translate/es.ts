@@ -18,6 +18,7 @@ export const SP_translations = {
   p5: 'mi mente por eso, vino la pandemia y por fin probé con la programación.',
   p6: 'Ahora, me siento completa con la literatura y el código. Puedo sentir el poder de las letras, de una línea de código; me gusta construir el mundo, cambiar las cosas y, sobre todo, mejorar las condiciones de vida de las personas que han venido al mundo con malas cartas.',
   section2:'Mis habilidades',
+	skills: ['Todas', 'Senior Mood', 'Junior Mood', 'Traine Mood', 'Aprendiendo'],
   section3: 'Proyectos',
   timeDev: 'Periodo de desarrollo:',
   times: [
